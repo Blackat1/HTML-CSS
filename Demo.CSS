@@ -1,0 +1,221 @@
+.Wrapper{
+    background-color: #FFC0CB;
+}
+.logo{
+    width: 50px;
+    padding: 10px 50px;
+}
+#Navbar ul{
+    
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 35px;
+    margin: 0;
+}
+#Navbar ul li{
+    display: inline;
+    margin: 0px 20px;
+    
+}
+#Navbar ul li a:hover{
+    color:red;
+}
+#Navbar ul li a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+#Carousel{
+    height: 500px;
+    margin-top: 10px;
+    background-image: url(../CSS_2/img/BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-clip: border-box;
+    border-radius: 0 0 25% 25%;
+}
+
+.intro-product-item{
+    width: 20%;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 10%;
+    padding: 10px 6% ;
+    text-align: center;
+    margin: -120px 2.5% 0  2.5%;
+    box-sizing:border-box;
+    float: left;
+    
+}
+.intro-product-item img{
+    height: 70px;
+}
+.intro-product-item p{
+    font-weight: bold;
+    display: contents;
+    
+
+}
+
+.clear{
+    clear: both;
+}
+.product-title{
+    text-align: center;
+    padding-top: 100px;
+}
+.product-title h1{
+    color: gray;
+    
+}
+.Product-item{
+    width: 22.5%;
+    
+    background-color: #fff;
+    border-radius: 10%;
+    padding: 20px 50px  ;
+    text-align:center;
+    margin: 10px 1.25%;
+    box-sizing:border-box;
+    float: left;
+
+}
+.clear{
+    clear: both;
+}
+
+.Product-item-img {
+    position: relative;
+
+}
+.product-item-img-background{
+    width: 100%;
+    border-radius: 10%;
+}
+.product-item-heart{
+    position: absolute;
+    margin: 0;
+    padding: 10px;
+    color: red;
+    background-color: rgba(255,255,255,0.6);
+    top: 20px;
+    right: 20px;
+    border-radius: 20%;
+
+}
+.product-item-title-img{
+    font-weight:  bold;
+
+}
+.product-item-content{
+    color: gray;
+}
+.product-item-button{
+    border: 0 solid;
+    color: gray;
+    background-color: #CFCFCF;
+    width: 90%;
+    height: 41.5px;
+    border-radius: 30%/100% ;
+}
+.Button{
+    text-align: center;
+}
+.btn-viewall{
+    margin: 20px 0;
+    border: 1px solid red ;
+    width: 12.5%;
+    height: 41.5px;
+    border-radius: 30%/100%;
+    font-size: 20px;
+}
+.btn-viewall:hover{
+    background-color: peru;
+}
+#Services{
+    background-color: #f7d3d9;
+    border-radius: 20px;
+}
+.services-img{
+    height: 400px;
+    width: 50%;
+    background-image: url(../CSS_2/img/mask.png);
+    background-repeat: no-repeat;
+    background-size: 1050px 400px ;
+    padding: 0 0 0 150px;
+    box-sizing: border-box;
+    float: left;
+}
+.services-in4{
+    color: gray;
+    height: 400px;
+    width: 50%;
+    float: left;
+}
+.services-in4 p{
+    font-size: 20px;  
+}
+.services-in4-app{
+    width: 50%;
+    float: left;
+    
+
+}
+.clear{
+    clear: both;
+}
+.services-in4-app img{
+
+    width: 200px;
+}
+.services-in4-app i{
+    color: #FA8072;
+    font-size: 30px;
+    margin: 0 10px;
+}
+.clear{
+    clear: both;
+}
+#Footer{
+    height: 300px;
+    margin-top: 50px;
+    color:black;
+    background-color: #f7d3d9;
+    border-radius: 100px 100px 0 0;
+}
+.footer-left{
+    width: 40%;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    float: left;
+}
+.footer-left p{
+    font-size: 20px;
+}
+.footer-right{
+    padding-top: 30px;
+    width: 20%;
+    float:left
+}
+.footer-right ul{
+    font-size: 20px;
+    list-style: none;
+    list-style-position: inside;
+}
+.footer-right h2{
+    color: black;
+    padding-left: 40px;
+}
+.footer-left h2{
+    color: black;
+}
+
+.clear{
+    clear: both;
+}
+
+.footer-bottom{
+    text-align: center;
+}
